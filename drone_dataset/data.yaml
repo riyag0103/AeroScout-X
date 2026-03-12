@@ -1,0 +1,6 @@
+names:
+- drone
+nc: 1
+path: D:/cnn/drone_dataset
+train: train/images
+val: valid/images
