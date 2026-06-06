@@ -13,15 +13,15 @@ if __name__ == "__main__":
     # 📌 Train the Model + Custom Save Location
     # ---------------------------------------------------
     results = model.train(
-        data=r"D:\cnn\drone_dataset\data.yaml",
-        epochs=200,
+        data=r"D:\aero\drone_dataset\data.yaml",
+        epochs=300,
         imgsz=640,
         batch=2,
-        device=0,
+        device="cpu",
         single_cls=False,
 
         # 🚀 CUSTOM SAVE LOCATION
-        project=r"D:\cnn\trained\drone_dataset",
+        project=r"D:\aero\trained\drone_dataset",
         name="yolov12_detection",   # your custom folder name
 
         # Hyperparameters
